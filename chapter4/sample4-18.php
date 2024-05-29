@@ -2,19 +2,19 @@
 <html lang="jp">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>簡単なテーブルのサンプル</title>
 </head>
 <body>
-    <h1></h1>
+    <h1>簡単なテーブルのサンプル</h1>
     <table border="1" style="border-collapse:collapse">
         <tr>
-            <th></th><th></th><th></th><th></th>
+            <th>名前</th><th>性別</th><th>年齢</th><th>住所</th>
         </tr>
         <?php
             $member=[
-                ["","",18,""],
-                ["","",16,""],
-                ["","",17,""]
+                ["山田太郎","男",18,"東京都"],
+                ["佐藤花子","女",16,"大阪府"],
+                ["鈴木次郎","男",17,"愛知県"]
             ];
             foreach ($member as $v) {
                 echo <<<LOOP
