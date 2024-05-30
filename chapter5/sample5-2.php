@@ -7,7 +7,7 @@
     }
     function stars($n);{
         for ($i=0; $i < $n; $i++) { 
-            echo "★";
+            echo "";
         }
         echo "<br>";
         return;
