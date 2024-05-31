@@ -2,7 +2,7 @@
     class Car{
         private $speed;
         private $number;
-        function__construct($number){//アンダー二個
+        function __construct($number){//アンダー二個
             $this->number=$number;
             echo "「{$this->number}」のインスタンス生成<br>";
         }

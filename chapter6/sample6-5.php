@@ -2,7 +2,7 @@
     class Car{
         private $serial=0;
         private static $carNumber=0;
-        function__construct(){
+        function __construct(){
             self::$carNumber++;
             $this->serial=self::$carNumber;
         }
