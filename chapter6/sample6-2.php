@@ -4,6 +4,7 @@
     $car2=new Car();
     
     $car1->number="あ12-34";
+    $car1->speed=50;
     $car1->drive();
     $car1->stop();
 
